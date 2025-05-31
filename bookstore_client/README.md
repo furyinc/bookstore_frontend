@@ -1,12 +1,79 @@
-# React + Vite
+# 📘 Bookstore Frontend — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of the Bookstore web application, built with **React** and **Vite** for lightning-fast development. It communicates with a Node.js/Express backend via RESTful APIs to deliver a seamless book shopping experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Fast builds & HMR using Vite
+- 🧠 Functional React components
+- 🛒 Fully-featured cart & wishlist
+- 🔐 Authentication with JWT
+- 📦 Axios for API communication
+- 🎯 Project-structured for scalability
+- 🎨 Responsive UI ready for production
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+
+/public             → Static assets
+/src
+/components       → Reusable UI components
+/pages            → Route pages (Home, BookDetails, etc.)
+/context          → Auth and Cart context providers
+/utils            → Axios config and helpers
+main.jsx          → App entry
+App.jsx           → Main app wrapper
+
+````
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Axios](https://axios-http.com/)
+- [React Router](https://reactrouter.com/)
+- [Context API](https://reactjs.org/docs/context.html)
+
+## 📦 Setup Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/YOUR-USERNAME/bookstore-frontend.git
+cd bookstore-frontend
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+````
+
+The frontend will be served at `http://localhost:5173`
+
+> ⚠️ **Make sure the backend server is also running** and API URLs are correctly configured in your `.env` file.
+
+## 🧾 Environment Variables
+
+Create a `.env` file in the root with:
+
+```
+VITE_API_BASE_URL=http://localhost:5000/api
+```
+
+> Adjust the API base URL according to your backend settings.
+
+## 📑 Linting & Formatting
+
+* ESLint rules are pre-configured
+* Add your own rules in `.eslintrc` if needed
+
+## 📄 License
+
+This project is open-source under the [MIT License](LICENSE).
+
+---
+
+Built with 💙 by \[S.Anvar]
+
+```
