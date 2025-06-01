@@ -1,9 +1,8 @@
 # 📘 Bookstore Frontend — React + Vite
 
 This is the **frontend** of the Bookstore web application, built with **React** and **Vite** for lightning-fast development. It communicates with a Node.js/Express backend via RESTful APIs to deliver a seamless book shopping experience.
----
-![Bookstore Frontend Preview](./public/preview.png)
 
+![Bookstore Frontend Preview](./public/preview.png)
 
 ## 🚀 Features
 
